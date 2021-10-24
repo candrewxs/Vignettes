@@ -35,12 +35,12 @@ library("reactable")
 
 The `readr package` in tidyverse library contains the function `read_csv` that will import data from a csv file. The csv file was downloaded from Kaggle.com dataset on Data Analysis Jobs in NYC for October 2021. The imported data was read in to RStudio as a dataframe, `da`.  
 ```{r}
-da <- read_csv("https://github.com/candrewxs/FALL2021TIDYVERSE/blob/tidyverse2021ca/data/data_analysis_jobs.csv?raw=true")
+da <- read_csv("https://github.com/candrewxs/Vignettes/blob/master/dadata/data_analysis_jobs.csv?raw=true")
 ```
 
 
 
-Retreive the names attribute of the da data set with the `names()` function.
+Retrieve the names attribute of the da data set with the `names()` function.
 ```{r}
 names(da)
 ```
@@ -101,14 +101,14 @@ pl_2
 p2 <- ggplot(pl_2) 
   p2 + geom_col(aes(`Business Title`, Freq)) +
     coord_flip()
-
 ```
 
 ## Conclusion
-Kagle data - Data Analysis Jobs, Based on NYC Jobs was loaded and analyzed using R base functions and packages from Tidyverse and Reactable. These are the Tidyverse packages that were utilized to load `(readr)` , perfom data manipulaton `(dplyr)` , create graphic representation of input data `(ggplot2)`.
+Kagle data - Data Analysis Jobs, Based on NYC Jobs was loaded and analyzed using R base functions and packages from Tidyverse and Reactable. These are the Tidyverse packages that were utilized to load `(readr)` , perform data manipulation `(dplyr)` , create graphic representation of input data `(ggplot2)`.
 
 
 
-
+Links
+[GitHub](https://rpubs.com/blesned/vignette)
 
 
